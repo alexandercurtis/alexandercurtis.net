@@ -86,6 +86,7 @@ header {
 
 }
 .hero-content {
+    width: 100%;
     z-index: 1;
 }
 .centred {
@@ -93,4 +94,20 @@ header {
     left: 50%;
     top: 50%;
     transform: translate( -50%, -50% );
+}
+ul.horizontal li {
+    display: inline;
+}
+
+#social li {
+    padding: 5px;
+}
+#social a {
+    font-size: 3rem;
+    color: #e8e8e8;
+    transition: 0.4s;
+}
+#social a:hover {
+    color: #fff;
+    text-shadow: 0 0 5px #fff;
 }
