@@ -103,6 +103,7 @@ ul.horizontal li {
     padding: 5px;
 }
 #social a {
+    outline: 0;
     font-size: 3rem;
     color: #e8e8e8;
     transition: 0.4s;
